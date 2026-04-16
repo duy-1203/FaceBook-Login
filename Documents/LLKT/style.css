@@ -1,0 +1,58 @@
+/* Reset co ban de bo qua cac khoang trang cua trinh duyet */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* Lay body lam khung chua, canh giua noi dung */
+body {
+    background-color: #f0f2f5   ;
+    height: 100vh   ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Trang tri cho cai hop chua noi dung */
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+/* Trag tri chu dang nhap */
+.container h2 {
+    margin-bottom: 20px;
+    color: #1877f2;
+}
+/* Trang tri cho cac truong nhap lieu */
+.container input {
+    width: 100%;
+    padding: 12px 15px  ;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+/* Trang tri cho nut dang nhap */
+.container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+/* Trang tri cho thong bao loi */
+#error-message {
+    color: red;
+    font-weight: bold;
+}
+/* Thay doi mau nut khi hover */
+.container button:hover {
+    background-color: #166fe5;
+}
